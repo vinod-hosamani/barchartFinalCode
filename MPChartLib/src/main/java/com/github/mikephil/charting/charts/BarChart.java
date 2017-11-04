@@ -110,8 +110,8 @@ public class BarChart extends BarLineChartBase<BarData> implements BarDataProvid
      * @param e
      * @return
      */
-    public RectF getBarBounds(BarEntry e) {
-
+    public RectF getBarBounds(BarEntry e)
+    {
         RectF bounds = new RectF();
         getBarBounds(e, bounds);
 

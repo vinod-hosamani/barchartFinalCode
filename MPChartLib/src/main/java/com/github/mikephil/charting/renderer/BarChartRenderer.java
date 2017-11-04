@@ -53,12 +53,13 @@ public class BarChartRenderer extends BarLineScatterCandleBubbleRenderer {
     }
 
     @Override
-    public void initBuffers() {
-
+    public void initBuffers()
+    {
         BarData barData = mChart.getBarData();
         mBarBuffers = new BarBuffer[barData.getDataSetCount()];
 
-        for (int i = 0; i < mBarBuffers.length; i++) {
+        for (int i = 0; i < mBarBuffers.length; i++)
+        {
             IBarDataSet set = barData.getDataSetByIndex(i);
             mBarBuffers[i] = new BarBuffer(set.getEntryCount() * 4 * (set.isStacked() ? set.getStackSize() : 1),
                     barData.getDataSetCount(), set.isStacked());

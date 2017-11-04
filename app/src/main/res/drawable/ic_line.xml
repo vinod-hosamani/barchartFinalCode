@@ -1,5 +1,5 @@
 <vector
-    android:height="139dp"
+    android:height="129dp"
     android:viewportHeight="91.0"
     android:viewportWidth="1.0"
     android:width="14dp"
@@ -10,5 +10,6 @@
         android:strokeColor="#FF4081"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
-        android:strokeWidth="2"/>
+        android:strokeWidth="1"
+        />
 </vector>

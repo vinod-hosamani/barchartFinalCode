@@ -222,7 +222,7 @@ public class YAxis extends AxisBase {
     @Deprecated
     public void setStartAtZero(boolean startAtZero) {
         if (startAtZero)
-            setAxisMinimum(0f);
+            setAxisMinimum(-15f);
         else
             resetAxisMinimum();
     }

@@ -7,5 +7,6 @@
     <color name="colorDefault">#FF4081</color>
     <color name="color_acent">#FF4081</color>
     <color name="color_barcolortwo">#FF4081</color>
+    <color name="color_transfeerent">#00000000</color>
 
 </resources>
